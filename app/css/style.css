@@ -1,7 +1,8 @@
 @media only screen and (max-width: 767px) {
   body {
     width: 100%;
-    max-height: 3623px; }
+    max-height: 3623px;
+    overflow-x: hidden; }
   .btn_menu {
     display: block;
     width: 45px;
@@ -851,7 +852,9 @@
     .head__logo {
       width: 820px;
       height: 159px;
-      padding-top: 50px; }
+      padding-top: 50px;
+      padding-left: 1%;
+      padding-right: 2%; }
     .head__description {
       width: 696px;
       height: 42px;
@@ -936,7 +939,7 @@
     .services__h1 {
       padding-top: 95px; }
     .services__container {
-      margin: 0px 40px;
+      margin: 50px 40px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1062,6 +1065,6 @@
     width: 100%;
     height: 286px; }
     .contacts-us__h1 {
-      padding: 85px 2px 29px; }
+      padding: 85px 3% 29px; }
     .contacts-us__email {
-      margin-left: 45%; } }
+      padding-left: 3%; } }
