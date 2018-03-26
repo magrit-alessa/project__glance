@@ -7,9 +7,9 @@ prefix = require('gulp-autoprefixer'),
 cssmin = require('gulp-clean-css');
 
 var paths = {
-	
+
 	devDir: 'app/'
-	
+
 };
 
 
@@ -33,13 +33,11 @@ gulp.task('watch', function(){
 
 gulp.task('browser-sync', function () {
 	browserSync.init({
-		port:3000,
 		server:{
-			baseDir:paths.devDir
+		port: 3000,
+    baseDir:"app"
 		}
 	});
 });
 
  gulp.task('default', ['browser-sync', 'watch', 'sass' ]);
-
- 
