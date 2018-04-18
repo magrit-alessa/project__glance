@@ -34,8 +34,7 @@ gulp.task('watch', function(){
 gulp.task('browser-sync', function () {
 	browserSync.init({
 		server:{
-		port: 3000,
-    baseDir:"app"
+		port: 3000
 		}
 	});
 });

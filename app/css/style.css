@@ -245,14 +245,14 @@
     .projects__btn-left {
       width: 40px;
       height: 40px;
-      background-image: url(/img/btn_left.svg);
+      background-image: url(../img/btn_left.svg);
       background-repeat: no-repeat;
       background-position: center;
       border: none;
       background-color: #ffffff;
       position: absolute;
       right: 42%;
-      bottom: -3%;
+      bottom: 2%;
       z-index: 1; }
       .projects__btn-left:hover {
         background-color: #5879f1; }
@@ -260,13 +260,13 @@
       width: 40px;
       height: 40px;
       position: absolute;
-      background-image: url(/img/btn_right.svg);
+      background-image: url(../img/btn_right.svg);
       background-repeat: no-repeat;
       background-position: center;
       border: none;
       background-color: #ffffff;
       left: 58.5%;
-      bottom: -3%; }
+      bottom: 2%; }
       .projects__btn-right:hover {
         background-color: #5879f1; }
   .contact {
@@ -668,14 +668,14 @@
     .projects__btn-left {
       width: 40px;
       height: 40px;
-      background-image: url(/img/btn_left.svg);
+      background-image: url(../img/btn_left.svg);
       background-repeat: no-repeat;
       background-position: center;
       border: none;
       background-color: #ffffff;
       position: absolute;
       right: 42%;
-      bottom: -3%;
+      bottom: 2%;
       z-index: 1; }
       .projects__btn-left:hover {
         background-color: #5879f1; }
@@ -683,13 +683,13 @@
       width: 40px;
       height: 40px;
       position: absolute;
-      background-image: url(/img/btn_right.svg);
+      background-image: url(../img/btn_right.svg);
       background-repeat: no-repeat;
       background-position: center;
       border: none;
       background-color: #ffffff;
       left: 58.5%;
-      bottom: -3%; }
+      bottom: 2%; }
       .projects__btn-right:hover {
         background-color: #5879f1; }
   .contact {
